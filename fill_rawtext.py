@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 filenames = glob2.glob('*.txt')
 
-engine = sqlalchemy.create_engine('mysql://michael:t"!tnm2Y]"@127.0.0.1/mydb', encoding='utf-8') # make sure encodign in DB is binary
+engine = sqlalchemy.create_engine('mysql://michael:{password}]"@127.0.0.1/mydb', encoding='utf-8') # make sure encodign in DB is binary
 db = engine.connect()
 
 #print(filenames)
