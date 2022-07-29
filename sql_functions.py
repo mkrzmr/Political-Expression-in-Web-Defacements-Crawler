@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 filenames = glob2.glob('*.txt')
 
-engine = sqlalchemy.create_engine('mysql://michael:t"!tnm2Y]"@127.0.0.1/mydb?charset=utf8', encoding='ISO-8859-1') # make sure encoding in db matches(utf8mb4))
+engine = sqlalchemy.create_engine('mysql://michael:{password}]"@127.0.0.1/mydb?charset=utf8', encoding='ISO-8859-1') # make sure encoding in db matches(utf8mb4))
 db = engine.connect()
 
 def fill_raw_text(): #loads all text files and inserts them into database
