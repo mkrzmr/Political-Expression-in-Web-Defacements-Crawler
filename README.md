@@ -5,7 +5,7 @@ Preliminary repo for any scripts and software developed in the context of the th
 All files are explained in detail in the dissertation, here is a short overview:
 
 ### zoneH_IWL_GUI.py 
-The GUI (really cli in a box) crawler for Zone-H. Requires a few empty csv file to be present, check code
+The GUI (really cli in a box) crawler for Zone-H. Requires a few empty csv files to be present, check code
 
 ### fill_rawtext.py 
 Connects to SQL DB and writes text and metadata from scraped fiels to DB. See dissertation for DB structure
